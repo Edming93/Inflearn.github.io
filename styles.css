@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="ad_content"],
+[class*=" ad_content"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 320px;
+  max-height: 100vh;
+}
+
+.ad_container {
+  display: flex;
+  height: 320px;
+  max-width: 1200px;
+  width: 1200px;
+}
+.content_right {
+  height: 100%;
+  width: 737px;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content_left {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  top: 44%;
+  transform: translateY(-50%);
+  max-width: 600px;
+}
+.pc_img {
+  display: block;
+  width: 737px;
+  height: 320px;
+}
+.mobile_img {
+  display: none;
+  width: 1200px;
+  height: 628px;
+}
+
+.ad_content1 {
+  background-color: #00c471;
+}
+
+.ad_content2 {
+  background-color: #d2d9dd;
+}
+
+.ad_content3 {
+  background-color: #501ef3;
+}
+
+.ad_content4 {
+  background-color: #ffd74b;
+}
+
+.ad_content5 {
+  background-color: #823eff;
+}
+.ad_content6 {
+  background-color: #f67837;
+}
+
+.ad_content7 {
+  background-color: #38e5ff;
+}
+
+.ad_content8 {
+  background-color: #1f6398;
+}
+
+.ad_content9 {
+  background-color: #00c471;
+}
+
+.ad_content10 {
+  background-color: #00d078;
+}
+
+.ad_content11 {
+  background-color: #59cf92;
+}
+
+.ad_content12 {
+  background-color: #3ec471;
+}

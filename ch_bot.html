@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ch_bot.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.7.0/keen-slider.min.css" />
+    <script src="https://kit.fontawesome.com/3a7191171a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="ch_bot_popup">
+        <div class="Layoutstyled__PCAppLayout-ch-front__sc-19rvneg-0 bALSkM" style="height:100%;">
+            <div data-ch-testid="lounge" class="Loungestyled__Lounge-ch-front__sc-u5mrod-0 cwhHAq">
+                <div class="BaseHeaderstyled__Wrapper-ch-front__sc-aselju-0 ldZhJM">
+                    <div class="BaseHeaderstyled__Content-ch-front__sc-aselju-3 cLiJPG">
+                        <div class="HeaderChannelInfostyled__Wrapper-ch-front__sc-1fl9prk-0 bdXIAU">
+                            <div class="Avatarstyled__Wrapper-ch-front__sc-yfy5xq-0 kNlyRL HeaderChannelInfostyled__Avatar-ch-front__sc-1fl9prk-1 cNXRmv"
+                                size="30">
+                                <img width="30" height="30"
+                                    src="https://cf.channel.io/thumb/200x200/pub-file/4627/616e19a1bda4a905d2b0/inflearn_green_310.png">
+                            </div>
+                            <span
+                                class="Text--1qy4b8f bgZRGt HeaderChannelInfostyled__Text-ch-front__sc-1fl9prk-2 fBreTw"
+                                data-testid="bezier-react-text">
+                                <div class="HeaderChannelInfostyled__Name-ch-front__sc-1fl9prk-3 gqYExv">인프런
+
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="BaseHeaderstyled__RightButtonsWrapper-ch-front__sc-aselju-4 epTyeW">
+                        <button class="Buttonsstyled__Button-ch-front__sc-1ym1uvv-0 bHwPlI">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" foundation="[object Object]"
+                                class="InnerIconstyled__Icon-ch-front__sc-197h5bb-0 hLmZzN" defaultopacity="1"
+                                hoveredopacity="1" margintop="0" marginright="0" marginbottom="0" marginleft="0"
+                                withtheme="true">
+                                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.83354 10.0001C5.83354 7.69939 7.69881 5.83342 10.0002 5.83342C12.3009 5.83342 14.1669 7.69939 14.1669 10.0001C14.1669 12.3008 12.3009 14.1667 10.0002 14.1667C7.69881 14.1667 5.83354 12.3008 5.83354 10.0001ZM18.3335 11.2501V8.75008L16.4752 8.44008C16.3094 7.75508 16.0394 7.11175 15.6794 6.52675L16.776 4.99091L15.0085 3.22341L13.4727 4.32091C12.8877 3.96091 12.2452 3.69091 11.5602 3.52508L11.2502 1.66675H8.7502L8.4402 3.52508C7.7552 3.69091 7.11187 3.96091 6.52687 4.32091L4.99104 3.22341L3.22354 4.99091L4.3202 6.52675C3.96104 7.11175 3.6902 7.75508 3.5252 8.44008L1.66687 8.75008V11.2501L3.5252 11.5601C3.6902 12.2451 3.96104 12.8884 4.3202 13.4734L3.22354 15.0092L4.99104 16.7767L6.52687 15.6792C7.11187 16.0384 7.7552 16.3092 8.4402 16.4751L8.7502 18.3334H11.2502L11.5602 16.4751C12.2452 16.3092 12.8877 16.0384 13.4727 15.6792L15.0085 16.7767L16.776 15.0092L15.6794 13.4734C16.0394 12.8884 16.3094 12.2451 16.4752 11.5601L18.3335 11.2501Z">
+                                </path>
+                            </svg>
+                        </button>
+                        <button id="x_btn" class="Buttonsstyled__Button-ch-front__sc-1ym1uvv-0 bHwPlI">
+                            <svg
+                                width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" foundation="[object Object]"
+                                class="InnerIconstyled__Icon-ch-front__sc-197h5bb-0 hLmZzN" defaultopacity="1"
+                                hoveredopacity="1" margintop="0" marginright="0" marginbottom="0" marginleft="0"
+                                withtheme="true">
+                                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16.4818 4.69668L15.3033 3.51817L10 8.82147L4.69671 3.51817L3.5182 4.69668L8.8215 9.99998L3.51819 15.3033L4.6967 16.4818L10 11.1785L15.3033 16.4818L16.4818 15.3033L11.1785 9.99998L16.4818 4.69668Z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="Loungestyled__Description-ch-front__sc-u5mrod-1 cTsCQg">성장기회의 평등 🌱 <br> 궁금한 점은 언제든지 문의해주세요.
+                </div>
+                <div class="Loungestyled__Content-ch-front__sc-u5mrod-2 lbJpo">
+                    <div class="LoungeCardstyled__CardWrapper-ch-front__sc-t3ffck-0 csyFez">
+                        <div class="LoungeCardstyled__CardHeader-ch-front__sc-t3ffck-1 iFuaLt">
+                            <div class="LoungeCardstyled__Title-ch-front__sc-t3ffck-2 lpouCV">
+                                <div class="ChatListCardstyled__TitleWrapper-ch-front__sc-1k74aq3-3 brUrnB">상담목록</div>
+                            </div>
+                            <div class="LoungeCardstyled__Actions-ch-front__sc-t3ffck-3 fNKmru">
+                                <div
+                                    class="ReadAllUserChatstyled__ReadAllUserChatWrapper-ch-front__sc-1j7mxix-0 kCaAKW">
+                                    <div name="check-circle" height="16" width="20" size="16"
+                                        class="SVGIconstyled__SVGIcon-ch-front__sc-15isf0b-0 klARjb"></div>
+                                    <div>전체읽기</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-ch-testid="user-chat-item"
+                            class="UserChatItemstyled__Wrapper-ch-front__sc-1m3tdpx-10 RMyBU">
+                            <div class="UserChatItemstyled__Gutter-ch-front__sc-1m3tdpx-0 kBxkue">
+                                <div size="36" class="Avatarstyled__Wrapper-ch-front__sc-yfy5xq-0 YaNEZ">
+                                    <img width="36" height="36"
+                                        src="https://cf.channel.io/thumb/200x200/pub-file/4627/616e1a5a481cc127ffdd/inflearn_white_310.png">
+                                </div>
+                            </div>
+                            <div class="UserChatItemstyled__Content-ch-front__sc-1m3tdpx-1 iKcsgH">
+                                <div class="UserChatItemstyled__Head-ch-front__sc-1m3tdpx-2 icKcXN">
+                                    <div class="UserChatItemstyled__Name-ch-front__sc-1m3tdpx-3 gZXIhj">인프런</div>
+                                    <div class="UserChatItemstyled__Time-ch-front__sc-1m3tdpx-4 nsDZu">6/30</div>
+                                </div>
+                                <div data-ch-testid="user-chat-item-body"
+                                    class="UserChatItemstyled__Body-ch-front__sc-1m3tdpx-5 ioqcLG">
+                                    누구나 자유롭게 학습하는 공간, 인프런 에 오신 것을 환영해요! 지금, 성장을 응원하는 신규가입 전용 쿠폰팩 을 드리고 있어요.
+                                    <img src="https://cf.channel.io/asset/emoji/images/80/gift.png" alt="gift"
+                                        data-context-type="emoji" size="18" width="18" height="18"
+                                        class="Emojistyled__Emoji-ch-front__sc-kwanmh-0 dIpZCO">
+                                    가입하면 바로 지급되는 쿠폰팩과 함께 자유롭게 탐험해보세요!
+                                </div>
+                            </div>
+                            <div class="UserChatItemstyled__Meta-ch-front__sc-1m3tdpx-7 gzQjUJ">
+                                <div data-ch-testid="user-chat-item-badge"
+                                    class="Badgestyled__Badge-ch-front__sc-1ztqq4-0 hsryEE">1</div>
+                                <div name="chevron-right" size="20"
+                                    class="SVGIconstyled__SVGIcon-ch-front__sc-15isf0b-0 fRZlkf UserChatItemstyled__RightIcon-ch-front__sc-1m3tdpx-8 CSFSs">
+                                </div>
+                                <div class="UserChatItemstyled__UserChatActionsWrapper-ch-front__sc-1m3tdpx-9 dVvENI">
+                                    <div name="more" width="36" height="32" size="24"
+                                        class="Iconstyled__Icon-ch-front__sc-7igckt-0 jaKAxH">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-ch-testid="user-chat-item"
+                            class="UserChatItemstyled__Wrapper-ch-front__sc-1m3tdpx-10 RMyBU">
+                            <div class="UserChatItemstyled__Gutter-ch-front__sc-1m3tdpx-0 kBxkue">
+                                <div size="36" class="Avatarstyled__Wrapper-ch-front__sc-yfy5xq-0 YaNEZ">
+                                    <img width="36" height="36"
+                                        src="https://cf.channel.io/thumb/200x200/pub-file/4627/616e1a5a481cc127ffdd/inflearn_white_310.png">
+                                </div>
+                            </div>
+                            <div class="UserChatItemstyled__Content-ch-front__sc-1m3tdpx-1 iKcsgH">
+                                <div class="UserChatItemstyled__Head-ch-front__sc-1m3tdpx-2 icKcXN">
+                                    <div class="UserChatItemstyled__Name-ch-front__sc-1m3tdpx-3 gZXIhj">인프런</div>
+                                    <div class="UserChatItemstyled__Time-ch-front__sc-1m3tdpx-4 nsDZu">6/22</div>
+                                </div>
+                                <div data-ch-testid="user-chat-item-body"
+                                    class="UserChatItemstyled__Body-ch-front__sc-1m3tdpx-5 ioqcLG">
+                                    누구나 자유롭게
+                                    학습하는 공간, 인프런 에 오신 것을 환영해요!
+                                    지금, 성장을 응원하는 신규가입 전용 쿠폰팩 을 드리고 있어요.
+                                    <img src="https://cf.channel.io/asset/emoji/images/80/gift.png" alt="gift"
+                                        data-context-type="emoji" size="18" width="18" height="18"
+                                        class="Emojistyled__Emoji-ch-front__sc-kwanmh-0 dIpZCO">
+                                    가입하면 바로 지급되는 쿠폰팩과 함께 자유롭게 탐험해보세요!
+                                </div>
+                            </div>
+                            <div class="UserChatItemstyled__Meta-ch-front__sc-1m3tdpx-7 gzQjUJ">
+                                <div data-ch-testid="user-chat-item-badge"
+                                    class="Badgestyled__Badge-ch-front__sc-1ztqq4-0 hsryEE">1</div>
+                                <div name="chevron-right" size="20"
+                                    class="SVGIconstyled__SVGIcon-ch-front__sc-15isf0b-0 fRZlkf UserChatItemstyled__RightIcon-ch-front__sc-1m3tdpx-8 CSFSs">
+                                </div>
+                                <div class="UserChatItemstyled__UserChatActionsWrapper-ch-front__sc-1m3tdpx-9 dVvENI">
+                                    <div name="more" width="36" height="32" size="24"
+                                        class="Iconstyled__Icon-ch-front__sc-7igckt-0 jaKAxH">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="LoungeCardstyled__CardWrapper-ch-front__sc-t3ffck-0 gWrNuY">
+                        <div class="WelcomeUserChatItemstyled__Wrapper-ch-front__sc-2xydgz-6 gijsLw">
+                            <div class="WelcomeUserChatItemstyled__Gutter-ch-front__sc-2xydgz-0 fdXBrp">
+                                <div size="36" class="Avatarstyled__Wrapper-ch-front__sc-yfy5xq-0 YaNEZ"><img width="36"
+                                        height="36"
+                                        src="https://cf.channel.io/thumb/200x200/pub-file/4627/616e1a5a481cc127ffdd/inflearn_white_310.png">
+                                </div>
+                            </div>
+                            <div class="WelcomeUserChatItemstyled__Content-ch-front__sc-2xydgz-1 hRGCxY">
+                                <div class="WelcomeUserChatItemstyled__Head-ch-front__sc-2xydgz-5 XaZDh">인프런</div>
+                                <div class="WelcomeUserChatItemstyled__Body-ch-front__sc-2xydgz-2 clYoDU">안녕하세요, 인프런
+                                    팀입니다.
+                                    궁금한 내용을 남겨주시면 운영시간 내 순차적으로 답변 드리겠습니다!</div>
+                            </div>
+                        </div>
+                        <div class="NewChatCardstyled__NewButtonWrapper-ch-front__sc-3t58vj-0 ktgMDb">
+                            <div data-ch-testid="new-chat-button"
+                                class="NewChatButtonstyled__Button-ch-front__sc-1nuv8bj-0 cMSShH">
+                                <div name="send-filled-black" width="20" height="20" size="20"
+                                    class="SVGIconstyled__SVGIcon-ch-front__sc-15isf0b-0 jxCvpw NewChatButtonstyled__Icon-ch-front__sc-1nuv8bj-1 gJBiE">
+                                </div>새 문의하기
+                            </div>
+                        </div>
+                        <div class="DetailOperationTimestyled__DescriptionWrapper-ch-front__sc-3hh13z-4 bglcWx">
+                            <div class="DetailOperationTimestyled__ContentWrapper-ch-front__sc-3hh13z-5 gejPpC">
+                                <div name="normal" size="14"
+                                    class="SVGIconstyled__SVGIcon-ch-front__sc-15isf0b-0 cuXCCK DetailOperationTimestyled__StatusIcon-ch-front__sc-3hh13z-2 kccCxp">
+                                </div>
+                                <div>보통 수십 분 내 답변</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="PoweredBystyled__Wrapper-ch-front__sc-1emxyx4-2 dAMrvO">
+                        <div class="PoweredBystyled__PoweredBy-ch-front__sc-1emxyx4-3 dUoOCB">
+                            <div name="ch-symbol" width="17" height="16"
+                                class="SVGIconstyled__SVGIcon-ch-front__sc-15isf0b-0 kSNpln PoweredBystyled__Icon-ch-front__sc-1emxyx4-0 xjcMo">
+                            </div>
+                            <div class="PoweredBystyled__Text-ch-front__sc-1emxyx4-1 cBKqVz"><span><b>채널톡</b> 이용중</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ToastContainerstyled__ToastContainer-ch-front__sc-1ra7iyy-0 dvQAzS"></div>
+        </div>
+    </div>
+
+
+    <script>
+
+    let x_btn = document.getElementById("x_btn");
+    let ch_btn = parent.document.getElementById("ch_plugin");
+    let ch_bot_popup = parent.document.getElementById("iframe_area");
+
+    let ch_badge = parent.document.getElementById("ch_badge");
+
+    x_btn.addEventListener("click",function() {
+        ch_bot_popup.classList.remove("iframe_active");
+        ch_bot_popup.classList.add("iframe_active_back");
+
+        ch_btn.style.opacity = 1;
+        
+        ch_badge.classList.add("ch_badge");
+    });
+
+    //애니메이션 발동조건 해당애니메이션이 엘리먼츠에 걸려 있으면 작동 
+    
+    </script>
+</body>
+
+</html>
